@@ -4,7 +4,7 @@ import shopping.controller.dto.UserDto
 import java.util.Date
 
 @Entity
-@Table(name="users")
+@Table(name="persona")
 data class User(
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id var id: Long?,
